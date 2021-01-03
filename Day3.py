@@ -54,18 +54,18 @@
 #         elif order == "2":
 #             flag = False
 
-flag = False
-while not flag:
-    print("在第一层")
-    inputSelect = input("要不要继续：").lstrip()
-    if inputSelect == "1":
-        while not flag:
-            print("在第二层")
-            inputSelect1 = input("要不要继续：").lstrip()
-            if inputSelect1 == "1":
-                pass
-            else:
-                break
-
-    else:
-        break
+# flag = False
+# while not flag:
+#     print("在第一层")
+#     inputSelect = input("要不要继续：").lstrip()
+#     if inputSelect == "1":
+#         while not flag:
+#             print("在第二层")
+#             inputSelect1 = input("要不要继续：").lstrip()
+#             if inputSelect1 == "1":
+#                 pass
+#             else:
+#                 break
+#
+#     else:
+#         break
