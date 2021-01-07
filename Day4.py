@@ -34,6 +34,7 @@ def writeFile(data):
 
 def simple(placeIndex):
     pass
+
 # placeIndex控制三级菜单层级
 placeIndex = []
 data = readFile()
